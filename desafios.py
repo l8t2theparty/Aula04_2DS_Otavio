@@ -16,7 +16,7 @@ print(f'Farenheit: {farenheit:.2f} °F')
 real = input('Insira a quantia em real: ')
 real = int(real)
 dolar = real*5.48
-print(f'Em dolares, seu valor é $ {dolar:.2f}')
+print(f'Em dolares, seu valor é ${dolar:.2f}')
 
 
 # DESAFIO 3
@@ -26,4 +26,3 @@ cm = metro * 100
 mm = metro * 1000
 km = metro / 1000
 print(f'Distância em centimetro seria {cm} cm, em milimetros seria {mm} mm, e em kilometros seria {km} km')
-
